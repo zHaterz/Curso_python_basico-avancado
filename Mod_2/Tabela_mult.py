@@ -1,3 +1,4 @@
+import os
 
 print('Tabuada dos numeros:')
 while True:
@@ -5,11 +6,13 @@ while True:
     
     if entrada[0].lower() == 's':
         break
-    
+
     try:
         if entrada:
             for i in range(1,11):
                 resultado = int(entrada) * i 
                 print(f'{entrada} x {i} | {resultado}')
+        
     except:
+        os.system('clear')
         print('Algo deu errado meu mano!\ncomeça de novo ai.')
