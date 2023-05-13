@@ -12,4 +12,4 @@ while True:
                 resultado = int(entrada) * i 
                 print(f'{entrada} x {i} | {resultado}')
     except:
-        print('Algo deu errado meu mano!\n começa de novo ai.')
+        print('Algo deu errado meu mano!\ncomeça de novo ai.')
