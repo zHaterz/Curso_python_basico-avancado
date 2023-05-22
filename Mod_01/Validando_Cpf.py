@@ -31,7 +31,7 @@ import os
 # CPF = '88711711019'
 
 cpf_gerados = []
-for _ in range(10):
+for _ in range(100):
     novos_noves_digitos = ''
     for _ in range(0,9):
         novos_noves_digitos += str(random.randint(0,9))
